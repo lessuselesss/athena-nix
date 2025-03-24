@@ -23,8 +23,8 @@
         modules = [
           ({ lib, pkgs, config, ...}: let
             hostname = "athenaos";
-            hashed = "$6$zjvJDfGSC93t8SIW$AHhNB.vDDPMoiZEG3Mv6UYvgUY6eya2UY5E2XA1lF7mOg6nHXUaaBmJYAMMQhvQcA54HJSLdkJ/zdy8UKX3xL1";
-            hashedRoot = "$6$zjvJDfGSC93t8SIW$AHhNB.vDDPMoiZEG3Mv6UYvgUY6eya2UY5E2XA1lF7mOg6nHXUaaBmJYAMMQhvQcA54HJSLdkJ/zdy8UKX3xL1";
+            hashed = "$6$51FcT2TE8N/xevYZ$MOHuVXzAdId21vqURO9NjmMVskLBcaSW9lQBYEKK4dXXvyycW3HnRr5nJZvKjwDcLF/c9JVa8AsdbWdFobyWK.";
+            hashedRoot = "$6$51FcT2TE8N/xevYZ$MOHuVXzAdId21vqURO9NjmMVskLBcaSW9lQBYEKK4dXXvyycW3HnRr5nJZvKjwDcLF/c9JVa8AsdbWdFobyWK.";
           in {
             networking.hostName = "${hostname}";
             users = lib.mkIf config.athena.enable {
